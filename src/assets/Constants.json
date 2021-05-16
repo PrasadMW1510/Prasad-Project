@@ -1,0 +1,55 @@
+{
+  "Routerpath":{
+      "Login":"/login",
+      "Dashboard":"/mda360/dashboard",
+      "ETL":"/mda360/etl",
+      "Iframe":"/mda360/IframeComponent",
+      "Configuration":"/mda360/configuration",
+      "Portal":"/mda360/portal",
+	  "ResourceUtil":"/mda360/resourceUtilization"
+  },
+  "menuObject":[{
+      "group": [
+        {
+          "name": "Home",
+          "action": "dashboard",
+          "icon": "ic_dashboard"
+        },        
+        {
+          "name": "User Activity",
+          "action": "cloudera",
+          "icon": "ic_virtual_machine"
+        },
+        {
+          "name": "Configuration",
+          "action": "configuration",
+          "icon": "ic_admin_settings"
+        }
+      ]
+    }],
+    "menuObjectwithResourceUtilization":[{
+     "group": [
+      {
+        "name": "Home",
+        "action": "dashboard",
+        "icon": "ic_dashboard"
+      },
+      {
+       "name": "Resource Utilization",
+       "action": "resourceUtil",
+       "icon": "ic_map_with_layers"
+            },
+      {
+        "name": "User Activity",
+        "action": "cloudera",
+        "icon": "ic_virtual_machine"
+      },
+      {
+        "name": "Configuration",
+        "action": "configuration",
+        "icon": "ic_admin_settings"
+      }
+    ]
+  }]
+}
+

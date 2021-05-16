@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Overall Status Icons Alignment Starts*/
+.secondLayerContainer{
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;     
+}
+#Normal,
+#Error,
+#Warning{    
+  border: 1px solid gray;
+    border-radius: 18px;
+    width: 100px;
+    margin-left: 20px;
+    display: flex;
+    cursor: pointer;
+    padding: 4px 8px 0px 8px;
+  } 
+  #Error{
+    padding: 4px 2px 0px 8px;
+  }
+
+ #Normal label{
+   cursor: pointer;
+ }
+ #Error label{
+  cursor: pointer;
+}
+#Warning label{
+  cursor: pointer;
+}
+
+.Normal{
+ background:#74aa32;
+}
+.Error{
+background:#c72f21;
+}
+.Warning{
+background:#e89d00;
+}
+.textColor{
+color: #FFF !important;
+}
+#normalLabel,
+#warningLabel,
+#errorLabel{
+  font-size: 11px;
+  margin-top: 6px;
+  font-weight: bold;
+}
+/* Overall Status Icons Alignment End*/
+
+/*Single card Alignment*/
+.singleCardIcon,
+.doubleCardIcon,
+.tripleCardIcon,
+.fourCardIcon{
+  display:flex;
+  float: left;
+  width:118px;
+  /* padding-left:10px; */
+}
+.singleCardText,
+.doubleCardText,
+.trippleCardText,
+.fourCardText{
+  font-family: Nokia Pure Text Medium, Arial, sans-serif;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 15px;
+  margin-left: 6px;
+  margin-top:2px;
+  display:flex;
+  color:#000;
+}
+
+
+.singleCardErrorCountContainer,
+.doubleCardErrorCountContainer,
+.trippleCardErrorCountContainer,
+.fourCardErrorCountContainer{
+  font-family: Nokia Pure Text Medium, Arial, sans-serif;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 20px;
+  color:#b2bdc5;
+  display:inline;
+}
+.singleCardErrorText,
+.doubleCardErrorText
+.trippleCardErrorText,
+.fourCardErrorText{
+font-family: Nokia Pure Text Medium, Arial, sans-serif;
+text-align: left;
+vertical-align: middle;
+font-size:12px;
+display:inline;
+}
+.doubleCardErrorText{
+  padding-top:5px;
+}
+.trippleCardErrorText{
+  padding-top:5px;
+}
+.singleCardStatusIcon,
+.doubleCardStatusIcon,
+.trippleCardStatusIcon,
+.fourCardStatusIcon{
+   float: right;
+   /* padding-right:20px; */
+   /* padding-top:5px; */
+}
+.singleCardErrorContainer{
+  margin: 0 auto;
+  width: 50px;
+}
+.doubleCardErrorContainer{
+  font-family: Nokia Pure Text Medium, Arial, sans-serif;
+  /*margin-left:190px;*/
+  float:right;
+  font-size:12px;
+  display:flex;
+  margin-right:10px;
+  /* margin: 0 auto; */
+  /* width: 150px; */
+}
+
+.trippleCardErrorContainer{
+  font-family: Nokia Pure Text Medium, Arial, sans-serif;
+ /* margin-left:190px;*/
+ float:right;
+ font-size:12px;
+ display:flex;
+ margin-right:10px;
+ /* margin: 0 auto; */
+  /* width: 150px; */
+}
+.fourCardErrorContainer{
+  font-family: Nokia Pure Text Medium, Arial, sans-serif;
+ /* margin-left:16px;*/
+ float:right;
+ margin-right:5px;
+
+ font-size:12px;
+ /* margin: 0 auto; */
+  /* width: 150px; */
+}
+
+.hideElement{
+  display: none !important;
+}
+.showElement{
+  display: block !important;
+}
+
+.lastrefresheddate{
+  color: #0000008A;
+  font-size: 10px;
+  float: right;
+  margin-right: 10px;
+  right: 0px;
+  top: 48px;
+  position:absolute;
+}
+
+.refreshBtn{
+  float: right;
+  top: -781px;
+  margin-right: 160px;
+  border-radius: 4px;
+  width: 86px;
+  font-size: 12px;
+}
+
+.errorText{
+  color:#D9070A;
+}
+.warningText{
+  color:#e89d00;
+}
+.successText{
+  color:#80AD07;
+}
+.pie-chart-header{
+  display: none;
+}
+.BreadCrumblabel{
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top:5px;
+}
+.csfWidgets.sidedrawer .opened-drawer .menu.actions{
+  position: absolute !important;
+  }
+  

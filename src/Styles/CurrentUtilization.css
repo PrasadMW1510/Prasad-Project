@@ -1,0 +1,38 @@
+.computeCluster,
+.dataCluster{    
+    border-radius: 18px;
+    width: 112px;
+    margin-left: 20px;    
+    cursor: pointer;    
+    background:#124191;
+    font-size: 10px;
+    color: white;
+    font-family: 'Nokia Pure Text Bold';    
+    padding-top: 8px;
+    text-align: center;
+}
+#rowHeaders span{
+    
+    padding-left: 10px;
+    font-size:14px;
+    font-family:'Nokia Pure Text Regular';
+}
+
+    #node,#project{
+    width: 100px;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    text-align:center;
+    padding: 10px;    
+    font-family: 'Nokia Pure Text Bold';    
+    font-size:14px;
+    cursor:pointer;    
+}
+.actionButton{
+    background:white;
+    color: #757575;
+}
+.selectedElement{
+    background: "#EBEBEB";
+    color: #000000;
+}

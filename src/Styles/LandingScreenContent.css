@@ -1,0 +1,19 @@
+.ETLlabel{
+    width:80px;
+    font-size:30px;
+    margin-left:18px;
+}
+.ExportLabel{
+    font-size:12px;
+    margin-right:12px;
+    margin-top:10px;
+    color:#124191 !important;
+    cursor: pointer;
+}
+.ExportImage{
+    display:flex;    
+    margin-left:auto;
+    cursor: pointer;
+    
+
+}

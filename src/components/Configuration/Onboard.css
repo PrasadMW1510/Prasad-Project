@@ -1,0 +1,18 @@
+.cardstyleofCSFP{
+    margin-top: 20px;
+}
+
+.csfWidgets.label label.browser{
+    overflow: visible;
+}
+#cardofCSFP.cardWrapper,  #cardofCSFP2.cardWrapper{
+    margin-right: 10px;
+
+}
+#cardofCSFP4.cardWrapper, #cardofCSFP5.cardWrapper{
+    margin-right: 10px;
+    margin-top:20px;
+}
+#mainCard.cardWrapper{
+    height:auto;
+}

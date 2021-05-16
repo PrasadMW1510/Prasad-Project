@@ -1,0 +1,79 @@
+
+ {​​​​​​​  "NCI":{​​​​​​​
+            "Portal":{​​​​​​​
+                  "ServiceName":"Portal",
+                  "Normal":50,
+                  "Warning":10,
+                  "Error":30 
+            }​​​​​​​,
+            "ProcessingLayer":{​​​​​​​
+                "Webservice":{​​​​​​​
+                      "ServiceName":"Web Service",
+                      "Normal":60,
+                      "Warning":10,
+                      "Error":30 
+                }​​​​​​​,
+                "IceCache":{​​​​​​​
+                      "ServiceName":"Ice Cache",
+                      "Normal":60,
+                      "Warning":10,
+                      "Error":30 
+                }​​​​​​​,
+                "AnalyticsEngine":{​​​​​​​
+                      "ServiceName":"Analytics Engine",
+                      "Normal":60,
+                      "Warning":10,
+                      "Error":30 
+                }​​​​​​​,
+                "TNP":{​​​​​​​
+                      "ServiceName":"TNP",
+                      "Normal":60,
+                      "Warning":10,
+                      "Error":30 
+                }​​​​​​​,
+                "MetaDataRepository":{​​​​​​​
+                      "ServiceName":"Meta Data Repository",
+                      "Normal":60,
+                      "Warning":10,
+                      "Error":30 
+                }​​​​​​​,
+                "SparkHive":{​​​​​​​
+                      "ServiceName":"Spark Hive",
+                      "Normal":60,
+                      "Warning":10,
+                      "Error":30 
+                }​​​​​​​,
+                "HBase":{​​​​​​​
+                      "ServiceName":"HBase",
+                      "Normal":60,
+                      "Warning":10,
+                      "Error":30 
+                }​​​​​​​,
+                "SummarizationEngine":{​​​​​​​
+                      "ServiceName":"Summarization Engine",
+                      "Normal":60,
+                      "Warning":10,
+                      "Error":30 
+                }​​​​​​​
+            }​​​​​​​,
+            "ETL":{​​​​​​​
+                  "ServiceName":"Web Service",
+                  "Normal":60,
+                  "Warning":10,
+                  "Error":30 
+            }​​​​​​​,
+            "DataRefinery":{​​​​​​​
+                  "ServiceName":"Data Refinery",
+                  "Normal":60,
+                  "Warning":10,
+                  "Error":30 
+            }​​​​​​​
+    }​​​​​​​
+}​​​​​​​
+
+
+
+ 
+
+
+

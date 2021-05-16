@@ -1,0 +1,61 @@
+
+
+.expansion-panel-basic-item{
+    font-family:Nokia Pure Text Regular, Arial, sans-serif;
+  }
+    .toggle-bar{
+      margin: -12px -48px -12px -24px;
+      padding: 18px 30px;
+      cursor: pointer; 
+        background-color: rgba(0,0,0,0.06);
+        box-shadow: none;
+        outline: none;
+      }
+      .chevron-indicator{
+        height: 24px;
+        width: 24px;
+        opacity: 0.54;
+        transform: rotate(-90deg);
+        transition: all 300ms;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+      }
+  
+  
+  
+  .expanded .expansion-panel-basic-item
+    .chevron-indicator{
+      transform: rotate(90deg);
+  }
+    .toggle-bar{
+      margin-bottom: 20px;
+    }
+    
+  .csf-widgets-expansion-panel .item-wrapper.collapsed:hover{
+    background: white;
+  }
+   
+  .csf-widgets-expansion-panel .item-wrapper:last-child.no-border{
+    background-color:#f0f0f0 !important;
+  }
+  .item-wrapper no-shadow no-border expanded{
+    background-color:#f0f0f0 !important;    
+  }
+  .toggle-bar{
+    background-color:#f0f0f0 !important;    
+  }
+  #exportLandingScreenPopup .ccfk-dialog{
+    top:100px !important;
+    right:88px !important;
+  }
+
+  #exportInputDirectoryPopup .ccfk-dialog{
+    top:220px !important;
+    right:120px !important;
+  }
+
+  #exportTopologyPopup .ccfk-dialog{
+    top:290px !important;
+    right:120px !important;
+  }

@@ -1,0 +1,67 @@
+#adapterDetails{
+    display:flex;
+    margin-top: 10px;
+}
+.rowAlignment{
+    display:flex;
+    margin-top: 20px;
+}
+.rightAlignment{
+    margin-right: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.headLine{    
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: 'Nokia Pure Text Regular';
+}
+.addButtonContainer{    
+    margin-right: 40px;
+}
+.cardContainer{
+    margin-left: 40px;
+    margin-top: 20px;    
+    margin-bottom: 20px;
+}
+.adapterCount{
+    font-size: 24px;
+    font-family: 'Nokia Pure Text Regular';
+}
+.adapterType{
+    font-size: 14px;
+    font-family: 'Nokia Pure Text Regular';
+    margin-left: 20px;
+    border-left: 2px solid #dcdcdc;
+    padding-left: 16px;
+}
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.iconsContainer{
+    display:flex;
+}
+#mainContent{
+    margin-top: 10px;
+}
+.colContainer{
+    display: inline;
+    margin-right: 8px;    
+}
+.colContainer .alginValue{
+    display: block;
+    padding-top: 4px;
+    font-size: 12px;
+}
+.colContainer .alignHeader{ 
+    display: block;
+    width: 110px; 
+    font-size: 12px;
+    color: #737373;
+    font-family: 'Nokia Pure Text Regular';
+}

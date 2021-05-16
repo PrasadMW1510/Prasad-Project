@@ -1,0 +1,66 @@
+.interfaceName{
+    height: 100px;
+    width:  120px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    margin-left: 4px;
+    margin-right: auto;    
+}
+
+.portalIcon{
+    float: right;
+    border:1px solid gray;
+    border-radius: 2px;
+    width: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items :center;
+    padding: 10px 10px;
+    margin-right: 6px;
+    background:#fafafa ;
+}
+
+.lastFileRecievedDiv{
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 90px;
+    padding: 4px;
+    margin-left:12px; 
+}
+
+.fileproccessed{
+    border: 1px solid gray;
+    border-radius: 2px;
+    width:90px;
+    padding: 4px;
+    margin-top: 8px;
+    margin-left:12px; 
+}
+
+.file{
+    font-size: 8px;
+    line-height: 1.6;
+    display: inline-block;
+}
+.displayFileTime{
+    font-size: 8px;
+    line-height: 1.6;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.fileAvailablitiydely{
+    font-size: 8px;
+    line-height:1.6;
+    text-align:center; 
+}
+
+.diagonisebtn{
+    border: 1px solid #124191;
+    border-radius: 4px;
+    margin-top: 8px;
+    width:92px;
+    font-size:12px;
+    margin-left: 12px;
+}

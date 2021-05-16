@@ -1,0 +1,28 @@
+#New-content{
+    color:white !important;
+    }
+    
+    
+    .permissions{
+        background:#F0F0F0;
+        color:black;
+        border-radius:40px;
+        padding-top:8px;
+        min-width:80px;
+        width:auto;
+        margin-bottom: 20px;
+        height:32px;
+        padding-left:10px;
+        padding-right:10px;
+        margin-left:15px;
+        margin-top:-10px;
+        text-align:center;
+    }
+    
+    #RolePopup-closeButton-button{
+        color:white !important;
+        margin-top:10px;
+    }
+    #RolePopup-closeButton-content{
+        color:white !important; 
+    }

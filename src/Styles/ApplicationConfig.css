@@ -1,0 +1,62 @@
+.nodesContainer{
+    display: flex;
+}
+.AppName{
+    margin-right: 20px; 
+    font-size: 16px;   
+}
+.AppDesc{
+    margin-right: 20px;
+    border-left: 2px solid #dcdcdc;
+    padding-left: 16px;
+    font-size: 14px;
+}
+.SysName{
+    border-left: 2px solid #dcdcdc;
+    padding-left: 16px;
+    font-size: 14px;
+}
+.AppNameSpace{
+    margin-top: 10px;
+}
+.NameSpaceDesc{
+    font-size: 12px;
+    color: #737373;
+    font-family: 'Nokia Pure Text Regular';
+}
+.nameSpace{
+    font-size: 14px;
+    font-family: 'Nokia Pure Text Regular';
+    padding-left: 3px;
+}
+.iconsContainer{
+    display:flex;
+}
+.AppText{
+    font-size: 18px;
+    font-family: 'Nokia Pure Text Regular';
+}
+#editBtn{
+    border: 2px solid #124191;     
+    font-size:12px;       
+}
+.AppRowContainer{
+    display: inline;
+    margin-right: 20px;    
+}
+.AppRowContainer .alignValue{
+    display: block;
+    padding-top: 4px;
+    font-size: 12px;
+}
+.AppRowContainer .alignContent{ 
+    display: block;
+    width: 110px; 
+    font-size: 12px;
+    color: #737373;
+    font-family: 'Nokia Pure Text Regular';
+}
+#userCredsContainer{
+    margin-top: 10px;
+    display: flex;
+}

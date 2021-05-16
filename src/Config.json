@@ -1,0 +1,89 @@
+{
+   "LoginScreen": {
+   "APPLICATION_NAME":"CXM Health Monitoring",
+   "APPLICATION_DESCRIPTION":"R21.3",
+   "APPLICATION_VERSION":"1.0",
+
+   "CKEY":{
+      "HTTPS":"NO",
+      "SERVER_NAME": "localhost",
+      "PORT":8080,
+      "CKEY_REALM":"/auth/realms/Mda/protocol/openid-connect/token",
+      "CLIENT_ID":"mda"
+         
+   },
+
+   "TWOFA":"false" 
+   },       
+		"API":{
+         "SERVICE":{
+            "LANDING":"https://default.mda360.insights.dyn.nesc.nokia.net/getlandingpage",
+            "ETL":"https://default.mda360.insights.dyn.nesc.nokia.net/etl/getstats",
+            "PORTAL":"https://default.mda360.insights.dyn.nesc.nokia.net/portal/healthcheck",
+            "ONBOARD_APPNAMES":"https://default.mda360.insights.dyn.nesc.nokia.net/config/roles/getappnames",
+            "ONBOARD_SAVE":"https://default.mda360.insights.dyn.nesc.nokia.net/config/onboard/save",	
+            "ONBAORD_SUMMARY":"https://default.mda360.insights.dyn.nesc.nokia.net/config/roles/summary",
+            "ROLES_SYNCHRONISATION":"https://default.mda360.insights.dyn.nesc.nokia.net/config/roles/syncroles",
+            "SEND_ROLES_GET_PRIVILGES":"https://default.mda360.insights.dyn.nesc.nokia.net/config/roles/rolenamemappings",
+            "ROLES_ONLOAD":"https://default.mda360.insights.dyn.nesc.nokia.net/config/roles/getrolemappings",
+            "ROLES_GETALL_PRIVILGES":"https://default.mda360.insights.dyn.nesc.nokia.net/config/privileges/getprivileges",
+            "ROLES_EDIT_SAVE":"https://default.mda360.insights.dyn.nesc.nokia.net/config/roles/saverolemappings",
+            "ROLES_NEWROLES_SAVE":"https://default.mda360.insights.dyn.nesc.nokia.net/config/roles/save",
+            "ROLES_DELETE":"https://default.mda360.insights.dyn.nesc.nokia.net/config/roles/delete",
+            "ALERT_CONFIG_DATAGRID":"https://default.mda360.insights.dyn.nesc.nokia.net/alertService/getAlertConfList",
+            "ALERT_CONFIG_POPUP":"https://default.mda360.insights.dyn.nesc.nokia.net/alertService/getAlertConf",
+            "ALERT_CONFIG_DELETE":"https://default.mda360.insights.dyn.nesc.nokia.net/alertService/deleteAlertConf",
+            "ALERT_CONFIG_UPDATE_STATUS":"https://default.mda360.insights.dyn.nesc.nokia.net/alertService/changeAlertConfStatus",
+            "ALERT_VISUALIZATION_DATAGRID":"https://default.mda360.insights.dyn.nesc.nokia.net/alertService/viewListOfRaisedAlerts",
+			   "ALERT_VISUALIZATION_POPUP":"https://default.mda360.insights.dyn.nesc.nokia.net/alertService/viewRaisedAlerts",
+			   "ALERT_VISUALIZATION_STATUS":"https://default.mda360.insights.dyn.nesc.nokia.net/alertService/changeRaisedAlertStatus",
+            "RESOURCE_UTILIZATION_COMPONENTS_SUMMARY":"http://127.0.0.1:8081/getMonitorApplication"
+              
+            
+                    
+         }
+      },
+          "keycloakApiDetails":{
+             "grant_type": "password",
+             "username": "admin",
+             "password": "Cindrella",
+             "client_id": "admin-cli"
+            },
+            "ROLES_NAMES":{
+              "ADMIN":"Portal Admin"
+            },
+            "ROLE_IDS":{
+               "ADMIN":1,
+               "INTEGRATION_USER":2,
+               "OPERATION_USER":3,
+               "CARE_USER":4
+            },
+            "TABS_PRIVILIGES":{
+               "SCHEDULE_EXPORT":"Scheduled Export Configuration",
+               "ALERT_VIEW":"Alerts/Notification view",
+               "ONBOARD":"Application onboard configuration",
+               "ADAPTER":"Adapter configuration"
+            },
+            "TABS_PRIVILIGES_IDS":{
+               "DIAGNOSE":1,
+               "ACTION":2,
+               "EDIT":3,
+               "EXPORT":4,
+               "INTEGRATED_VIEW":11,
+               "ALERTS_NOTIFICATIONS_VIEW":12,
+               "USER_AUDIT":13,
+               "EXTERNAL_INTEGRATION_VIEW":14,
+               "RESOURCE_UTILIZATION_METRICS":15,
+               "SCHEDULE_EXPORT":16,
+               "ONBOARD":17,
+               "APPLICATION_COMPONENT_CONFIGURATION":18,
+               "ADAPTER":19,
+               "ALERTS_CONFIG_VIEW":20,
+               "END_USER_MONITORING":21,
+               "ON_DEMAND_EXPORT":22,
+               "THRESHOLD_CONFIGURATION":23,
+               "CONTENT_APP_RESULTS_VIEW":24,
+               "DATA_QUALITY":25
+            }
+}
+ 

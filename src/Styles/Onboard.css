@@ -1,0 +1,258 @@
+.cardstyleofCSFP{
+    margin-top: 20px;
+}
+
+.csfWidgets.label label.browser{
+    overflow: visible;
+}
+#cardofCSFP.cardWrapper,  #cardofCSFP2.cardWrapper{
+    margin-right: 10px;
+
+}
+#cardofCSFP4.cardWrapper, #cardofCSFP5.cardWrapper{
+    margin-right: 10px;
+    margin-top:20px;
+}
+#mainCard.cardWrapper{
+    height:auto;
+}
+div.header-container{
+    background-color:#124191!important;
+    color:white !important;
+    height:50px !important;
+    
+}
+h3,.title,.header-title-button{
+    color:white !important;
+    padding-top: 0px !important;
+}
+.csfWidgets.formLayout .footer-height{
+    padding-bottom:0px !important;
+}
+
+ #dialogofOnboard .button--icon-only:not(.button--call-to-action):not(.button--disabled).button .button__content>span:not(.button__icon-wrapper--retain-icon-color) svg * {
+    fill: white!important;}
+ #add_circle-button.csfWidgets button datagrid-row-actions button--icon-only ,#add_circle-content, #add_circle-svg-icon-svgIcon,#add_circle-button .button--icon-only:not(.button--call-to-action):not(.button--disabled).button .button__content>span svg {
+        fill: #124191!important;}
+
+.csfWidgets button datagrid-row-actions button--icon-only{
+    padding-top: 15px !important;
+}
+  #downloadtemplate-content.button__content{
+      width:4px !important;
+      height:4px !important;
+  }
+  #downloadtemplate-button.button{
+   min-width: 0px !important;
+   background-color:white !important;
+   min-height:10px !important;
+  }
+  #uploadtemplate-content.button__content{
+      width:4px !important;
+      height:4px !important;
+  }
+  #uploadtemplate-button.button{
+   min-width: 0px !important;
+   background-color:white !important;
+   min-height:10px !important;
+  }
+  
+  .csf-widgets-wizard .csf-widgets-wizard-main-navigation{
+      width: 242px !important;
+  }
+  .csf-widgets-wizard-header{
+      height:0px !important;
+  }
+  .csf-widgets-wizard-footer{
+      height:54px !important;
+  }
+  h3, .title{
+      margin-top:12px !important;
+  }
+  /* .ccfk-dialog{
+   height:500px !important;
+   margin-bottom: 30px !important;
+  } */
+  /* .csf-widgets-wizard-footer-actions{
+      top:10px !important;
+      bottom:320px !important;
+  } */
+  /* .csfWidgets .ccfk-dialog{
+    position: absolute !important;
+  } */
+  .csf-widgets-wizard .csf-widgets-wizard-user-content{
+      width: calc(100% - 0px) !important;
+  }
+  .csf-widgets-wizard .csf-widgets-wizard-main{
+      height: 430px;
+      background: white;
+  }
+  .csfWidgets .FileUploader .dzContainer .listItemWrapper {
+
+      height:30px !important;
+  }
+  #csfWidgets-button-74-svg-icon-svgIcon .svg-container{
+  color:red
+  }
+ 
+  #csfWidgets-button-78-svg-icon-svgIcon .svg-container .button .button__icon-wrapper .svg-container{
+      background-color: red !important;
+  }
+  #csfWidgets-button-56-content{
+      background-color: red !important;
+  }
+  #csfWidgets-button-68-content{
+      background-color: red !important;
+  }
+
+  .csf-widgets-wizard .csf-widgets-wizard-main-navigation{
+      background-color: whitesmoke !important;
+      height: calc(100% - 48px) !important;
+  }
+
+  #TextInputID-textInput{
+   margin-right:15px
+  }
+
+  .csfWidgets.tabs button.tab-label{
+      min-width: 150px !important;
+  }
+
+
+
+   .expansion-panel-standard111{
+   font-family: Nokia Pure Text Regular, Arial, sans-serif;
+   margin:15px;}
+  .toggle-bar111{
+    margin: -12px -48px 0 -24px;
+    padding: 18px 30px;
+    cursor: pointer;
+    background-color: #F0F0F0;
+} 
+.expansion-panel-standard111 .toggle-bar111:hover,.toggle-bar111:focus{
+      /* background-color: rgba(0,0,0,0.06); */
+      box-shadow: none;
+      outline: none;
+    }
+    
+ .chevron-indicator{
+   height: 24px;
+   width: 24px;
+   float: right;
+   opacity: 0.54;
+   top: 21px;
+   transform: rotate(-90deg);
+   transition: all 300ms;
+
+ }
+   .expanded{
+     margin-top: -5px;
+     transform: rotate(0deg);
+ }
+  .expanded-panel{
+    margin: 0 -48px 0 -24px;
+    padding-top: 5px;
+    height:auto;
+    background-color: #f0f0f0 !important;
+  }  
+  .csf-widgets-expansion-panel .item-wrapper.expanded.gap {
+      height:auto !important;
+  }
+  .csf-widgets-expansion-panel .item-wrapper{
+      margin-bottom:15px !important;
+  }
+  /* .footer{
+    margin: 20px 0 0 0;
+    border-top: 1px solid rgba(0,0,0,0.12);
+    background-color:#dcdcdc;
+    text-align: right;}
+    .button{
+      margin: 8px;
+    } */
+
+
+    
+  .csf-widgets-expansion-panel .item-wrapper.collapsed:hover{
+    background-color:#dcdcdc;
+}
+
+
+.nodesContainer{
+    display: flex;
+}
+.AppName{
+    margin-right: 20px; 
+    font-size: 16px;   
+}
+.AppDesc{
+    margin-right: 20px;
+    border-left: 2px solid #dcdcdc;
+    padding-left: 16px;
+    font-size: 14px;
+}
+.SysName{
+    border-left: 2px solid #dcdcdc;
+    padding-left: 16px;
+    font-size: 14px;
+}
+.AppNameSpace{
+    margin-top: 10px;
+}
+.NameSpaceDesc{
+    font-size: 12px;
+    color: #737373;
+    font-family: 'Nokia Pure Text Regular';
+}
+.nameSpace{
+    font-size: 14px;
+    font-family: 'Nokia Pure Text Regular';
+    padding-left: 3px;
+}
+.iconsContainer{
+    display:flex;
+}
+.AppText{
+    font-size: 18px;
+    font-family: 'Nokia Pure Text Regular';
+}
+#editBtn{
+    border: 2px solid #124191;     
+    font-size:12px;       
+}
+.AppRowContainer{
+    display: inline;
+    margin-right: 100px;  
+}
+.AppRowContainer .alignValue{
+    display: block;
+    padding-top: 4px;
+    font-size: 12px;
+}
+.AppRowContainer .alignContent{ 
+    display: block;
+    width: 110px; 
+    font-size: 12px;
+    color: #737373;
+    font-family: 'Nokia Pure Text Regular';
+}
+#userCredsContainer{
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.onboardAppNamesDiv{
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    width: 120px;
+    margin: 15px;
+    color: black;
+    height:32px;
+    padding-top:10px;
+    text-align:center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#dialogofOnboard-closeButton-button{
+    margin-top:12px !important ;
+}
+
